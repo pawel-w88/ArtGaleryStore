@@ -16,9 +16,10 @@ Object.entries(dataObj).forEach((fotosCard) => {
             <img src = ${card.image} class='card-img-top' alt= ${card.title} height= 200px
  />
             <div>
-            <h3>${card.title}</h3>
+            <h2>${card.title}</h2>
             <h4>${card.author}</h4>
-            <h4>${card.size}</h4>
+            <h5>${card.size}</h5>
+            <span>${card.prise}</span>
             </div>
             </div>
             `;
@@ -27,3 +28,4 @@ Object.entries(dataObj).forEach((fotosCard) => {
     });
   });
 });
+
